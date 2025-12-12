@@ -30,7 +30,7 @@ local HEAVY_ATTACK_ID = "rbxassetid://87817038903196"
 local WALK_ANIMATION_ID = "rbxassetid://79526409570143"
 local IDLE_ANIMATION_ID = "rbxassetid://112721782432519"
 
--- spent ages tweaking these numbers to get it feeling right
+-- tweaked these numbers to get it feeling right
 local COMBO_WINDOW = 0.35 -- how long you have to chain the next hit
 local ATTACK_SPEED_MULTIPLIER = 1.1
 local LIGHT_ATTACK_LUNGE_SPEED = 35
@@ -485,3 +485,4 @@ end
 
 Tool.Equipped:Connect(onEquip)
 Tool.Unequipped:Connect(onUnequip)
+
